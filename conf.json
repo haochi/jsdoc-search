@@ -1,0 +1,13 @@
+{
+    "plugins": ["./search"],
+    "templates": {
+        "default": {
+            "layoutFile": "./layout.tmpl",
+            "staticFiles": {
+                "include": [
+                    "./statics"
+                ]
+            }
+        }
+    }
+}
