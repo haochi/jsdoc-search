@@ -24,10 +24,10 @@ angular
               });
 
               if (path !== undefined) {
-                url = '/' + path.split('/')
-                                       .concat([doc.meta.filename])
-                                       .filter(function (p) { return p; })
-                                       .join('_')  + '.html#line' + doc.meta.lineno;
+                url = path.split('/')
+                          .concat([doc.meta.filename])
+                          .filter(function (p) { return p; })
+                          .join('_')  + '.html#line' + doc.meta.lineno;
 
                 $window.location = url;
               }
