@@ -1,6 +1,10 @@
 JSDoc Search Plugin
 -------------------
 
+Demo
+====
+[Demo](http://ihaochi.com/jsdoc-search/demo/)
+
 Usage:
 ======
 
